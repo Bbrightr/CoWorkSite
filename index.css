@@ -3,13 +3,9 @@ body {
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
+    background-color: beige;
 }
 
-/*
-Challenge:
-1. Get this layout looking like the 
-   screenshots on the slide.
-*/  
 
 /*--------------------------Header--------------------------*/
 
@@ -59,6 +55,7 @@ h1 {
 
 img{
     width: 100%;
+    display: block;
 }
 
 
@@ -66,10 +63,66 @@ img{
 
 .caption {
     margin: 0  25px;
+    display: flex;
+    gap: 20px;
+    /* align-items:center */
+
 }
 
+section{
+}
 
 .container {
-    /* width: 250px; */
     margin: 0 auto;
+    width: 500px;
+    position: relative;
+
 }
+
+.align-right{
+    margin-left: auto;
+}
+
+.item{
+    position: relative;
+}
+
+.img-banner{
+    background-color: #cd6858;
+    color: whitesmoke;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+button {
+    align-self: center;
+    border: none;
+    background-color: #cd6858;
+    color: whitesmoke;
+    padding: 10px 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.chatbox-bg {
+    background-color: #dda15e;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #999;
+    display: flex;
+    position: fixed;
+    right: 6px;
+    bottom: 6px;
+}
+
+.chatbox-img {
+   width: 50%; 
+   margin: auto;
+   
+}
+
+
